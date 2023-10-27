@@ -1,0 +1,14 @@
+h1,h2,h3{
+    text-align: center;
+    background-color: yellow;
+    padding: 3px;
+    border: 2px solid black;
+
+}
+
+p{
+    font-family: monospace;
+    font-style: italic;
+    color: black;
+    text-shadow: 5px 5px 5px purple;
+}

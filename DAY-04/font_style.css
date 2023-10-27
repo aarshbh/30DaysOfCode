@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    background-color: yellow;
+    padding: 3px;
+    border: solid 3px black;
+}
+
+p{
+    font-size: 30px;
+    font-style: italic;
+}
+

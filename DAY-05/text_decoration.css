@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    background-color: yellow;
+    padding: 3px;
+    border: solid 3px black;
+
+}
+p{
+    border: 3px solid black;
+    padding: 2px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 200px;
+
+}
+em{
+    text-decoration: underline blueviolet 5px dotted;
+}

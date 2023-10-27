@@ -1,0 +1,19 @@
+h1{
+    background-color: yellow;
+    padding: 5px;
+    display: inline;
+}
+p{
+    background-color: cyan;
+}
+li{
+    background-color: darkkhaki;
+    /* display: inline; */
+    /* display: none; */
+ /* visibility: hidden; */
+}
+
+em{
+    display: block;
+    background-color: chocolate;
+}

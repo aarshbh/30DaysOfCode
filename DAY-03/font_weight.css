@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+background-color: yellow;
+padding: 5px;
+border: solid 3px black;
+}
+p{
+    font-family: robo;
+    font-weight: 100;
+}
+@font-face{
+    font-family:"robo";
+    src: url("motion-picture/MotionPicture_PersonalUseOnly.ttf") format("truetype");
+    
+}

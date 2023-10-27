@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    background-color: yellow;
+    padding: 3px;
+    border: solid 3px black;
+}
+
+p{
+    border: solid 3px black;
+    text-transform: uppercase;
+    text-align: justify;
+    text-indent: 5em;
+}

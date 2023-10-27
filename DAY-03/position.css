@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: yellow;
+    padding: 5px;
+    border: solid 3px black;
+
+
+}
+
+em{
+    position: relative;
+    left: 200px;
+    top: 300px;
+
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 200px;
+    position: relative;
+    left: 350px;
+    top: 170px;
+
+opacity: 0.5;
+}

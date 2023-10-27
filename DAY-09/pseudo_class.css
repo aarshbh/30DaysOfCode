@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    background-color: azure;
+    border: 2px solid oldlace;
+    padding: 3px;
+
+}
+
+.click-me {
+    position: absolute;
+    top: 530px;
+    left: 350px;
+}
+
+blockquote{
+    font-size: x-large;
+
+}
+
+/* Unvisted Link */
+a:link{
+    text-decoration: none;
+    
+}
+
+/* HOVERED LINK */
+ a:hover{
+    color: red;
+    background-color: aqua;
+    font-size: large;
+    border-radius: 200px;
+
+ }
+
+ /* ACTIVE LINK */
+
+ a:active{
+    color: chartreuse;
+ }
+
+ /* VISITED LINK */
+ 
+/* @aarshbharti6234
+
+I was facing an issue of "a:visited" property overriding my "a:hover" property ,
+so i searched on internet and found that its new update of browser: 
+To ensure user privacy we cannot use 'a:visited',
+as it shows the previous history of visted links...
+FUN FACT 2023
+
+
+a:visited{
+        color: yellow;
+}
+  */
+
+  input[type="checkbox"]:checked{
+    outline: 2px solid rgb(211, 48, 7);
+  }
+
+  input[type="text"]:disabled{
+    background-color: gray;
+  }
+
+  #cool:focus{
+    background-color: aqua;
+  }
+
+
+  p:nth-child(3){
+    background-color: chartreuse;
+  }

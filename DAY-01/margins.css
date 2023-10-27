@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 5px;
+    border: double 3px yellow;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+
+}
+
+p{
+    background-color: aqua;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}

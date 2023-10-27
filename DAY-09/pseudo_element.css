@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    background-color: yellow;
+    padding: 4px;
+    border: 3px solid black;
+
+}
+
+#para::first-letter{
+    color: red;
+    font-size: 50px;
+    text-shadow: 1px 1px 3px gray;
+}
+
+
+#para::first-line{
+    background-color: wheat;
+}
+
+
+::selection{
+    background-color: rgb(39, 193, 236);
+
+    /* This code will change the background color of the selected
+     text to yellow and the text color to blue,
+      but it won't allow you to change the font family.
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.tag::after{
+    content: " +";
+}
+
+.tag::before{
+    content: "- ";
+}

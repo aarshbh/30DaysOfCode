@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    border: 3px solid black;
+    padding: 3px;
+    background-color: yellow;
+    border-radius: 200px;
+}
+
+h2{
+    text-align: center;
+    background-color: azure;
+    font-size: 45px;
+    border-radius: 150px;
+}
+
+#container{
+    
+    color: red;
+    
+
+}
+
+
+
+p{
+    text-align: center;
+    font-size: 25px;
+    color: green;
+}
+
+ /* 
+ Inheritance copy the properties of parent class i.e
+ of #container in p element */
+
+.inherit{
+    color: inherit;
+}
+
+ /* Initial property sets the default browser style*/
+
+.initial{
+    color: initial;
+}
+
+/* If the element is naturally inherited it
+acts like inherit ,otherwise acts like initial . As 
+in this case p is inherited
+with container id*/
+
+/* 
+In this case i would expect the color green as i set the color in <P> element,
+but the color is red because unset property ignored the style of <P> element and
+set the style as mentioned in the parent class */
+.unset{
+    color: unset;
+}
+ 

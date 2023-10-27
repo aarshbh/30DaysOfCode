@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 3px;
+
+} p::first-letter{
+    color: red;
+    font-size: 30px;
+    background-color: yellow;
+}
+p::first-line{
+    background-color: aquamarine;
+}
+p{
+    background-color: chartreuse;
+}

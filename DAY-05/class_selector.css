@@ -1,0 +1,14 @@
+.heading{
+    text-align: center;
+    background-color: yellow;
+    padding: 3px;
+    border: solid 3px black;
+
+}
+p{
+    color: blueviolet;
+
+}
+.top{
+    background-color: rgb(25, 90, 209);
+}

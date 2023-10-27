@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    background-color: yellow;
+    padding: 5px;
+    border: solid 3px black;
+}
+div{
+    background-color: azure;
+    height: 1000px;
+}
+h2{
+    background-color: yellow;
+    border: solid 5px black;
+    position: fixed;
+    bottom: 0px;
+}

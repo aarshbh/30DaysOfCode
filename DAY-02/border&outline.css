@@ -1,0 +1,10 @@
+h1{
+    border: solid 5px red;       
+    outline: solid 5px green;
+    outline-offset: 2.5px;
+}
+
+em{
+    outline: 5px solid red;
+    background-color: aqua;
+}

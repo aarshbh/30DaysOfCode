@@ -1,0 +1,16 @@
+h1{
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+    border: solid 5px black;
+}
+div{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    padding: 10px;
+    border: solid 10px yellow;
+    box-sizing: border-box;
+    
+    
+}
