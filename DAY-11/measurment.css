@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    background-color: azure;
+    padding: 5px;
+    border: 3px solid black;
+
+}
+
+div{
+    height: 10px;
+}
+
+#Absolute{
+    width: 50px;
+    background-color: rebeccapurple;
+}
+
+#relative{
+    width: 50%;
+    background-color: limegreen;
+}
+#outerDiv{
+    width: 100px;
+    border: 2px solid red;
+    padding: 3px;
+    
+}
+
+p{
+    font-size: 5vw;
+}
