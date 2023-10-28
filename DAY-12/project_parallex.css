@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+section{
+    place-items: calc(center);
+  width: 100%;
+  height: 100%;
+  background-image: url(pexels-photo-1402787.jpeg);   
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-size: 100 auto;
+}
+div{
+    text-align: center;
+    color: aliceblue;
+}
