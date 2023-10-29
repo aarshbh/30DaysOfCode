@@ -1,0 +1,36 @@
+*{
+background-color: rgb(1, 56, 56);
+}
+
+h1{
+    text-align: center;
+    background-color: bisque;
+    border: 3px solid black;
+    padding: 3px;
+}
+
+div{
+    position: absolute;
+    top: 220px;
+    right: 270px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: sqare;
+    animation-duration: 7.5s;
+}
+
+/* @keyframes sqare{
+    from{background-color: red;}
+    to{background-color: yellow;}
+    from{border-radius: 0px;}
+    to{border-radius: 200px;}
+} */
+
+@keyframes sqare {
+    0%{background-color: red;}
+    25%{border-radius: 0;}
+    50%{border-radius: 200px;}
+    75%{background-color: yellow;}
+    100%{border: 3px solid whitesmoke;}
+}
