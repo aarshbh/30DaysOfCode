@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    background-color: yellow;
+    padding: 3px;
+    border: 2px solid black;
+
+}
+
+
+#container{
+    width: 1000px;
+    height: 1000px;
+    background-color: blueviolet;
+    margin: 80px auto;
+    border-radius: 8px;
+
+     /* : It calls the flex property */
+    
+     display: flex;
+/*      
+        :  It adjust the directions of elements to showcase
+           in flex container */
+
+    flex-direction: row-reverse;
+/* 
+        : It adjusts the showcase of element if they 
+           exceeds in number , default value is nowrap */
+
+    flex-wrap: nowrap;
+
+        /* : Flex flow = Flex direction+ Flex wrap properties */
+
+    flex-flow: row-reverse nowrap;
+
+            /* : Aligns the positions of elements in between flex-container */
+
+     justify-content: space-around;  /*evenly and other types of properyties*/    
+
+     /* align-items: center; */
+
+     align-content: space-evenly;
+}
+
+.item{
+    width: 150px;
+    height: 80px;
+    border: 2px solid white;
+    background-color: greenyellow;
+    padding: 20px;
+    margin: 5px;
+
+    text-align: center;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 8px;
+    color: #000;
+    font-size: 2em;
+    font-family: sans-serif;
+
+}
+
+
+.item_1{
+    order: 10;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.item_2{
+    order: 9;
+    flex-grow: 0;
+    flex-shrink: 1
+}
+
+.item_3{
+    order: 8;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.item_4{
+    order: 7;
+    flex-grow: 0;
+flex-shrink: 1;
+}
