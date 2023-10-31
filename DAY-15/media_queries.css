@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(42, 13, 1);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+  }
+  p{
+    color: aliceblue;
+  }
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  
+  
+  .center-container {
+    text-align: center;
+  }
+  
+  img {
+    width: 50vh;
+    height: 50vh;
+  }
+  
