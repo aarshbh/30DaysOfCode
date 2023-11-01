@@ -1,0 +1,77 @@
+body {
+  background-color: aqua;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    background-color: violet;
+   }                                                              
+                                  /* under 359 px the font-size is 150px */
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    font-size: 150px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 360px) {
+
+body{
+    background-color: darkgoldenrod;
+}
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    border: 2px solid black;
+    font-size: 100px;
+  }
+}
+
+/* @media only screen and(max-width: 1200px){
+
+body{
+    background-color: darkolivegreen;
+}
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    font-size: 100px;
+  }
+} */
+
+@media (orientation :landscape){
+    body{
+background-color: darkcyan;
+    }
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 344px;
+  height: 344px;
+  border: 2px solid white;
+  padding: 3px;
+  background-color: bisque;
+  margin: 3px;
+ 
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
