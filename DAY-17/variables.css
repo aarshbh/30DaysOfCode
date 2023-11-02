@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(35, 112, 137);
+}
+
+:root {
+    --bestcolor: red;
+    --aftercolor: blue;
+    --beforecolor: yellow;
+    --bestfont: monospace;
+    --afterfont: sans-serif;
+    --beforefont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+.parent{
+    width: 200px;
+    height: 200px;
+    background-color: var(--aftercolor);
+    position: relative;
+    top: 150px;
+    left: 300px;
+    text-align: center;
+    font-size: 50px;
+    font-family: var(--bestfont);
+
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: var(--beforecolor);
+    position: relative;
+    top: 200px;
+    left: 300px;
+    text-align: center;
+    font-size: 50px;
+    font-family: var(--afterfont);
+
+}
+
