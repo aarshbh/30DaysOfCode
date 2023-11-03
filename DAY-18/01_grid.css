@@ -1,0 +1,92 @@
+.title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.title span{
+    font-family: monospace;
+
+}
+
+.item{
+    height: auto;
+    text-align: center;
+    color: black;
+    background-color: darkgoldenrod;
+    border: 1px solid black;
+    font-size: larger;
+    font-weight: bolder;
+    display: grid;
+    place-items: center;
+    
+    
+}
+.item:hover{
+    color: rgb(250, 243, 243);
+}
+
+
+ /* Using px , auto and % in grid-template-column  */
+
+/* #container{
+    width: 95vw;
+    height: 60vh;   
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid #4834D4;
+    display: grid;
+    grid-template-columns: 200px 200px auto;
+    
+} */
+
+/* #container{
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid #4834D4;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+
+    
+} */
+
+ /* Using fraction units to fractionise the grids */
+
+/* #container{
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid #4834D4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+
+  /* Using repeat value */
+
+/* #container{
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid #4834D4;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+} */
+
+
+/* Using repeat % autofill property */
+
+#container{
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid #4834D4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
