@@ -1,0 +1,94 @@
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title span{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.item{
+    height: auto;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: goldenrod;
+    display: grid;
+    place-items: center;
+}
+.item:hover{
+    color: aliceblue;
+}
+
+
+/* Using [col-start] */
+
+/* .container{
+    
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid #4834D4;
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-3] 1fr [col-eng];
+} */
+
+/* 
+Implicid define grid tracs : These are the colums or rows which are not being assigned
+to any specific item/style/px/soze in our grid layout i.e they are default.So to cover 
+overall grids we use GRID-AUTO-COLUMS & GRID-AUTO-ROWS  */
+
+
+/* .container{
+    
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid #4834D4;
+    display: grid;
+    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-3] 1fr ;
+} */
+
+/* .container{
+    
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid #4834D4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 70px;
+    grid-auto-rows: 50px;
+    grid-auto-flow: row;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    place-items: center ;
+    
+} */
+
+.container{
+    
+    width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    outline: 5px solid #4834D4;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: 100px 70px;
+    grid-auto-rows: 50px;
+    grid-auto-flow: row;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    /* align-content: end; */
+    /* justify-content: end; */
+    place-content: end end;
+    
+    
+}

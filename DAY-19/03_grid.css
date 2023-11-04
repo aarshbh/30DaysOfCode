@@ -1,0 +1,84 @@
+.title{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title spam{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.item{
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+.item:hover{
+    color: antiquewhite;
+}
+
+#container{
+    width: 95vw;
+    height: 65vh;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    outline: 2px solid blue;
+    display: grid;
+
+/* We are using Grid-Area property */
+
+    grid-template-columns: [col-start] 1fr [col-two] 1fr [col-3] 1fr [col-end];
+    grid-auto-rows: 60px auto 100px;
+    
+/* grid-template-areas works as blueprint for 
+grid area property to showcase alignments
+of items n element bodies */
+
+    grid-template-areas:  
+
+/* content in "" works as variables in grid-area 
+ i.e grid-area: "x,y,z,header etc " ; */
+
+    "header header header"
+    "main main sidebar "
+    "footer footer footer"
+    ;
+
+
+/* Grid-template short hand property */
+
+/*
+   grid-template: 
+   "header header header" 60px
+   "main main sidebar" auto
+   "footer footer footer" 100px
+   /[col-start] 1fr [col-two] 1fr [col-three] 
+   1fr [col-end];
+ */
+
+
+
+}
+
+.header{
+  grid-area: header;
+}
+
+.main{
+grid-area: main;
+}
+
+.sidebar{
+grid-area: sidebar;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+
+
