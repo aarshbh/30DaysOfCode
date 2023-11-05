@@ -1,0 +1,63 @@
+.title{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: goldenrod;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bolder;
+    display: grid;
+    place-items: center;
+    
+
+}
+.item:hover{
+    color: aliceblue;
+}
+
+#container{
+    width: 95vw;
+    height: 60vh;
+    background-color: antiquewhite;
+    outline: 2px solid blue;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:
+    [col-start] 1fr
+    [col-two] 1fr
+    [col-three] 1fr
+    [col-end] 
+    ;
+
+    grid-template-rows: repeat(3,100px);
+    
+
+
+}
+
+.one{
+    grid-column-start: col-start ;
+grid-column-end: col-three ;
+grid-column: 2 / 4;
+}
+
+.two{
+    grid-row: 2 / 5 ;
+}
+
+.five{
+    align-self: start;
+    justify-self: end;
+    place-self: end start;
+}
